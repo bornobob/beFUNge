@@ -1,0 +1,63 @@
+$$\left<\left(1, 1 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{1,1}=\texttt{" "}$$
+$$\left<\left(2, 1 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\lor_{sos}\right]\indent\text{because }P_{2,1}=\lor$$
+$$\left<\left(2, 2 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{2,2}=\texttt{" "}$$
+$$\left<\left(2, 3 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{2,3}=\texttt{" "}$$
+$$\left<\left(2, 4 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{>}_{sos}\right]\indent\text{because }P_{2,4}=\texttt{>}$$
+$$\left<\left(3, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{3,4}=\texttt{" "}$$
+$$\left<\left(4, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{?}^1_{sos}\right]\indent\text{because }P_{4,4}=\texttt{?}^1$$
+$$\left<\left(5, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{5,4}=\texttt{" "}$$
+$$\left<\left(6, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{?}^2_{sos}\right]\indent\text{because }P_{6,4}=\texttt{?}^2$$
+$$\left<\left(5, 4 \right), \leftarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{5,4}=\texttt{" "}$$
+$$\left<\left(4, 4 \right), \leftarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{?}^1_{sos}\right]\indent\text{because }P_{4,4}=\texttt{?}^1$$
+$$\left<\left(5, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{5,4}=\texttt{" "}$$
+$$\left<\left(6, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{?}^2_{sos}\right]\indent\text{because }P_{6,4}=\texttt{?}^2$$
+$$\left<\left(5, 4 \right), \leftarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{5,4}=\texttt{" "}$$
+$$\left<\left(4, 4 \right), \leftarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{?}^1_{sos}\right]\indent\text{because }P_{4,4}=\texttt{?}^1$$
+$$\left<\left(5, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{5,4}=\texttt{" "}$$
+$$\left<\left(6, 4 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{?}^3_{sos}\right]\indent\text{because }P_{6,4}=\texttt{?}^3$$
+$$\left<\left(6, 3 \right), \uparrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{6,3}=\texttt{" "}$$
+$$\left<\left(6, 2 \right), \uparrow, (), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{number}_{sos}\right]\indent\text{because }P_{6,2}=\texttt{4}$$
+$$\left<\left(6, 1 \right), \uparrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{>}_{sos}\right]\indent\text{because }P_{6,1}=\texttt{>}$$
+$$\left<\left(7, 1 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{>}_{sos}\right]\indent\text{because }P_{7,1}=\texttt{>}$$
+$$\left<\left(8, 1 \right), \rightarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\lor_{sos}\right]\indent\text{because }P_{8,1}=\lor$$
+$$\left<\left(8, 2 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{8,2}=\texttt{" "}$$
+$$\left<\left(8, 3 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{8,3}=\texttt{" "}$$
+$$\left<\left(8, 4 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{8,4}=\texttt{" "}$$
+$$\left<\left(8, 5 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{8,5}=\texttt{" "}$$
+$$\left<\left(8, 6 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{" "}_{sos}\right]\indent\text{because }P_{8,6}=\texttt{" "}$$
+$$\left<\left(8, 7 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\lor_{sos}\right]\indent\text{because }P_{8,7}=\lor$$
+$$\left<\left(8, 8 \right), \downarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{<}_{sos}\right]\indent\text{because }P_{8,8}=\texttt{<}$$
+$$\left<\left(7, 8 \right), \leftarrow, (), (\texttt{" "}, \texttt{z}, 13), (4), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{.}_{sos}\right]\indent\text{because }P_{7,8}=\texttt{.}$$
+$$\left<\left(6, 8 \right), \leftarrow, (4), (\texttt{" "}, \texttt{z}, 13), (), \texttt{normal}, P\right>$$
+$$\xRightarrow{}_{sos}\left[\texttt{@}_{sos}\right]\indent\text{because }P_{6,8}=\texttt{@}$$
+$$\left((4), P\right)$$
