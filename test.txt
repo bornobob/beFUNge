@@ -1,4 +1,0 @@
-\rightarrow
-\downarrow
-\leftarrow
-\uparrow
